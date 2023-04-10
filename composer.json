@@ -1,0 +1,17 @@
+{
+    "name": "jsyqw/business-gii",
+    "description": "基于Yii2框架，通过gii生成Model,以及生成统一的API格式",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Jason Wang",
+            "email": "jasonwang1211@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jsyqw\\BusinessGii\\": "src/"
+        }
+    }
+}
