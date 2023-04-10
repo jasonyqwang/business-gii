@@ -36,11 +36,11 @@
 
 ## 4.示例
 
-![GII页面](https://github.com/jasonyqwang/business-gii/blob/master/docs/gii-page.png)
+![GII页面](https://github.com/jasonyqwang/business-gii/blob/main/docs/gii-page.png)
 
-![Model模型页面](https://github.com/jasonyqwang/business-gii/blob/master/docs/gii-model.png)
+![Model模型页面](https://github.com/jasonyqwang/business-gii/blob/main/docs/gii-model.png)
 
-![Controller控制器页面](https://github.com/jasonyqwang/business-gii/blob/master/docs/gii-page.png)
+![Controller控制器页面](https://github.com/jasonyqwang/business-gii/blob/main/docs/gii-page.png)
 
 # 二.基于git引用该项目 
 
