@@ -8,7 +8,9 @@
             "email": "jasonwang1211@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "jsyqw/param-validate": "*"
+    },
     "autoload": {
         "psr-4": {
             "Jsyqw\\BusinessGii\\": "src/"

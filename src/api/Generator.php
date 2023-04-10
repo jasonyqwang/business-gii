@@ -41,7 +41,7 @@ class Generator extends \yii\gii\Generator
     public $searchType = Generator::searchTypeWhereFilter;
     public $controllerNS = 'app\modules\api\controllers';
     public $controllerClass = 'XXController';
-    public $baseControllerClass = 'app\core\controllers\BaseApiController';
+    public $baseControllerClass = 'app\core\controllers\api\BaseApiController';
 
     //不需要自动生成查询的映射字段
     protected $ignoreSearchAttributes = [
@@ -137,7 +137,7 @@ class Generator extends \yii\gii\Generator
      */
     public function stickyAttributes()
     {
-        return array_merge(parent::stickyAttributes(), ['baseControllerClass']);
+        return array_merge(parent::stickyAttributes());
     }
 
     /**

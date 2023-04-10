@@ -39,6 +39,14 @@ echo $form->field($generator, 'baseControllerClass');
             $("#generator-controllerns").val(controllerNS)
         })
 
+        $("#generator-modulename").blur(function () {
+            let moduleName = $(this).val();
+            let baseControllerClass = "";
+            if(moduleName!=""){
+                baseControllerClass = "app\\core\\controllers\\"+moduleName+"\\BaseApiController"
+            }
+            $("#generator-basecontrollerclass").val(baseControllerClass)
+        })
     })
     //首字母转大写
     function firstWordUpper(str){

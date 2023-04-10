@@ -1,6 +1,6 @@
-# 开发 Yii2 的扩展包
+# Yii2 的扩展包
 
-    Yii2 的gii扩展包,自动生成业务model，以及自动生成 api 接口
+    Yii2的gii扩展包,自动生成业务 model，以及自动生成 api 接口
 
 # 一.使用composer安装（推荐）
 
@@ -34,6 +34,13 @@
 
     访问地址  http://{url}/gii
 
+## 4.示例
+
+![GII页面](https://github.com/jasonyqwang/business-gii/blob/master/docs/gii-page.png)
+
+![Model模型页面](https://github.com/jasonyqwang/business-gii/blob/master/docs/gii-model.png)
+
+![Controller控制器页面](https://github.com/jasonyqwang/business-gii/blob/master/docs/gii-page.png)
 
 # 二.基于git引用该项目 
 
